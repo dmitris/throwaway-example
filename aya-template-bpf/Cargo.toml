@@ -7,8 +7,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-aya-bpf = { path = "../../aya/bpf/aya-bpf", branch = "main" }
-aya-bpf-cty = { path = "../../aya/bpf/aya-bpf-cty", branch = "main" }
+aya-bpf = { path = "../../aya/bpf/aya-bpf"}
+aya-bpf-cty = { path = "../../aya/bpf/aya-bpf-cty"}
 
 [profile.dev]
 panic = "abort"
